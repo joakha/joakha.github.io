@@ -24,11 +24,11 @@ const About = () => {
             </div>
 
             <div className="flex flex-col items-center lg:flex-row lg:justify-center gap-10">
-                <div className="h-[300px w-[325px] lg:w-[439px]">
+                <div className="h-[300px] w-[325px] md:w-[375px] lg:w-[439px]">
                     <img src={profilePicture} className="rounded-md w-full h-full object-cover object-center" />
                 </div>
 
-                <div className="h-[300px] w-[325px] lg:w-[600px] bg-chocolate-light text-white text-justify p-6 overflow-auto rounded">
+                <div className="h-[300px] w-[325px] md:w-[375px] lg:w-[500px] bg-chocolate-light text-white text-justify p-6 overflow-auto rounded">
                     {lorem}
                 </div>
             </div>
