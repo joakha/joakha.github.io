@@ -10,7 +10,7 @@ const Projects = () => {
 
       {projects.map((project) => (
         <ProjectRow
-        key={project.name}
+          key={project.name}
           projectName={project.name}
           stack={project.stack}
           description={project.description}

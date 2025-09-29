@@ -1,5 +1,7 @@
 import { lorem } from "../constants"
 import profilePicture from "../assets/profilePicture.jpeg"
+import { aboutLinks } from "../constants"
+import Link from "./Link"
 
 const About = () => {
     return (
@@ -7,19 +9,12 @@ const About = () => {
             <div className="flex flex-col gap-4 items-center text-chocolate-milk font-bold mb-16">
                 <div className="text-4xl">About Me</div>
                 <div className="flex gap-4">
-                    <a href="https://github.com/joakha"
-                        className="text-xl hover:text-chocolate-dark underline underline-offset-6 font-bold text-choco"
-                        target="_blank"
-                    >
-                        GitHub
-                    </a>
-                    <a
-                        href="https://github.com/joakha"
-                        className="text-xl hover:text-chocolate-dark underline underline-offset-6  font-bold"
-                        target="_blank"
-                    >
-                        LinkedIn
-                    </a>
+                    {aboutLinks.map((link) => (
+                        <Link
+                            name={link.name}
+                            address={link.address}
+                        />
+                    ))}
                 </div>
             </div>
 

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Chiplet from "./Chiplet";
+import Link from "./Link";
 
 const ProjectRow = ({ projectName, stack, description, pictures, repository }) => {
 
@@ -24,14 +25,11 @@ const ProjectRow = ({ projectName, stack, description, pictures, repository }) =
     return (
         <div>
             <h2 className="text-center font-bold text-3xl mb-6 text-chocolate-milk">{projectName}</h2>
-            <div className="flex justify-center">
-                <a
-                    className="text-center font-bold text-xl mb-6 text-chocolate-milk hover:text-chocolate-dark underline underline-offset-6"
-                    href={repository}
-                    target="_blank"
-                >
-                    Github Repository
-                </a>
+            <div className="flex justify-center mb-6">
+                <Link
+                    name={"Project Repository"}
+                    address={repository}
+                />
             </div>
             <div className="flex justify-center">
                 <div className={`grid grid-cols-2 gap-2 lg:grid-cols-4 mb-12`}>
