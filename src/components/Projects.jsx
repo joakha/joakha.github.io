@@ -13,7 +13,6 @@ const Projects = () => {
         key={project.name}
           projectName={project.name}
           stack={project.stack}
-          chipletGridSize={project.chipletGridSize}
           description={project.description}
           pictures={project.pictures}
           repository={project.repository}

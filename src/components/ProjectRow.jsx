@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Chiplet from "./Chiplet";
 
-const ProjectRow = ({ projectName, stack, chipletGridSize, description, pictures, repository }) => {
+const ProjectRow = ({ projectName, stack, description, pictures, repository }) => {
 
     const [shownPictureIndex, setShownPictureIndex] = useState(0);
 
@@ -26,7 +26,7 @@ const ProjectRow = ({ projectName, stack, chipletGridSize, description, pictures
             <h2 className="text-center font-bold text-3xl mb-6 text-chocolate-milk">{projectName}</h2>
             <div className="flex justify-center">
                 <a
-                    className="text-center font-bold text-xl mb-6 text-chocolate-milk hover:text-chocolate-dark underline underline-offset-4"
+                    className="text-center font-bold text-xl mb-6 text-chocolate-milk hover:text-chocolate-dark underline underline-offset-6"
                     href={repository}
                     target="_blank"
                 >
@@ -34,7 +34,7 @@ const ProjectRow = ({ projectName, stack, chipletGridSize, description, pictures
                 </a>
             </div>
             <div className="flex justify-center">
-                <div className={`grid grid-cols-2 gap-2 lg:grid-cols-${chipletGridSize} mb-12`}>
+                <div className={`grid grid-cols-2 gap-2 lg:grid-cols-4 mb-12`}>
                     {stack.map((item) => (
                         <Chiplet key={item} itemName={item} />
                     ))}
@@ -43,7 +43,7 @@ const ProjectRow = ({ projectName, stack, chipletGridSize, description, pictures
 
             <div className="flex flex-col items-center lg:flex-row lg:justify-center gap-10 mb-16">
                 <div className="relative h-[300px] w-[325px] md:w-[375px] lg:w-[439px]">
-                    <img src={pictures[shownPictureIndex]} className="rounded-md w-full h-full object-cover object-center" />
+                    <img src={pictures[shownPictureIndex]} className="rounded-md w-full h-full" />
                     <button onClick={showPrevPicture} className=' bg-chocolate-dark rounded-xl text-xl px-6 py-4 text-white hover:text-chocolate-white absolute bottom-5 left-5 cursor-pointer'>&lArr;</button>
                     <button onClick={showNextPicture} className=' bg-chocolate-dark rounded-xl text-xl px-6 py-4 text-white hover:text-chocolate-white absolute bottom-5 right-5 cursor-pointer'>&rArr;</button>
                 </div>

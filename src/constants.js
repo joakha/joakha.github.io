@@ -10,16 +10,14 @@ import benefit3 from "./assets/benefit-3.jpeg"
     {
       name: "Video Game Collection",
       stack: ["TypeScript", "React Native", "Expo", "Firebase"],
-      chipletGridSize: 4,
-      description: `An application with which the user can find games and track their own collection. Includes many features like finding games, tracking game status, 
-      setting custom cover art from phone media library and collection statistics.`,
+      description: `A mobile application which allows the user to find games and track their own collection. Also includes many other features like game status tracking, 
+      setting custom cover art from phone media library and collection statistics. Mobile programming course final project.`,
       pictures: [vgc1, vgc2],
       repository: "https://github.com/joakha/video-game-collection"
     },
     {
       name: "Benefit-App",
       stack: ["Typescript", "React", "Java", "Spring Boot", "PostgreSQL", "Docker"],
-      chipletGridSize: 6,
       description: `Benefit-App was a collaborative software project between a Haaga-Helia University of Applied Sciences student group and FiSMA ry (Finnish Software Measurement Association).
        It is a tool that can be used to estimate the scope of software projects. As part of the team I worked in a front-end oriented role on many features like project component management, 
        multilingual interface and project version history.`,

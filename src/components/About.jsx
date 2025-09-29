@@ -8,14 +8,14 @@ const About = () => {
                 <div className="text-4xl">About Me</div>
                 <div className="flex gap-4">
                     <a href="https://github.com/joakha"
-                        className="text-xl hover:text-chocolate-dark underline underline-offset-4 font-bold text-choco"
+                        className="text-xl hover:text-chocolate-dark underline underline-offset-6 font-bold text-choco"
                         target="_blank"
                     >
                         GitHub
                     </a>
                     <a
                         href="https://github.com/joakha"
-                        className="text-xl hover:text-chocolate-dark underline underline-offset-4  font-bold"
+                        className="text-xl hover:text-chocolate-dark underline underline-offset-6  font-bold"
                         target="_blank"
                     >
                         LinkedIn
