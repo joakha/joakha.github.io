@@ -2,7 +2,7 @@ import { lorem } from "../constants"
 
 const Skills = () => {
   return (
-      <section id="skills" className="bg-chocolate-light scroll-mt-16">
+      <section id="skills" className="bg-chocolate-light scroll-mt-22">
         <div className="text-center text-chocolate-white font-bold text-4xl mt-16">
           Skills
         </div>

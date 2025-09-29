@@ -9,13 +9,22 @@ import benefit3 from "./assets/benefit-3.jpeg"
   const projects = [
     {
       name: "Video Game Collection",
-      description: lorem,
-      pictures: [vgc1, vgc2]
+      stack: ["TypeScript", "React Native", "Expo", "Firebase"],
+      chipletGridSize: 4,
+      description: `An application with which the user can find games and track their own collection. Includes many features like finding games, tracking game status, 
+      setting custom cover art from phone media library and collection statistics.`,
+      pictures: [vgc1, vgc2],
+      repository: "https://github.com/joakha/video-game-collection"
     },
     {
       name: "Benefit-App",
-      description: lorem,
-      pictures: [benefit1, benefit2, benefit3]
+      stack: ["Typescript", "React", "Java", "Spring Boot", "PostgreSQL", "Docker"],
+      chipletGridSize: 6,
+      description: `Benefit-App was a collaborative software project between a Haaga-Helia University of Applied Sciences student group and FiSMA ry (Finnish Software Measurement Association).
+       It is a tool that can be used to estimate the scope of software projects. As part of the team I worked in a front-end oriented role on many features like project component management, 
+       multilingual interface and project version history.`,
+      pictures: [benefit1, benefit2, benefit3],
+      repository: "https://github.com/joakha/benefit-app"
     }
   ]
 

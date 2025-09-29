@@ -3,19 +3,19 @@ import profilePicture from "../assets/profilePicture.jpeg"
 
 const About = () => {
     return (
-        <section id="about" className="my-16 scroll-mt-32">
+        <section id="about" className="my-16 scroll-mt-40">
             <div className="flex flex-col gap-4 items-center text-chocolate-milk font-bold mb-16">
                 <div className="text-4xl">About Me</div>
                 <div className="flex gap-4">
                     <a href="https://github.com/joakha"
-                        className="text-xl underline underline-offset-4 font-bold text-choco"
+                        className="text-xl hover:text-chocolate-dark underline underline-offset-4 font-bold text-choco"
                         target="_blank"
                     >
                         GitHub
                     </a>
                     <a
                         href="https://github.com/joakha"
-                        className="text-xl underline underline-offset-4  font-bold"
+                        className="text-xl hover:text-chocolate-dark underline underline-offset-4  font-bold"
                         target="_blank"
                     >
                         LinkedIn

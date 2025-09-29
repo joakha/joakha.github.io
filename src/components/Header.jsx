@@ -1,7 +1,7 @@
 const Header = () => {
 
   return (
-    <header className="bg-chocolate-dark py-8 text-white sticky top-0">
+    <header className="bg-chocolate-dark py-8 text-white sticky top-0 z-50">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="text-center text-xl hidden lg:inline">Portfolio</div>
         <div className="text-center text-xl hidden md:inline lg:inline">Johannes Haapanen ◯ Student</div>
