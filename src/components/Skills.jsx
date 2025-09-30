@@ -8,7 +8,7 @@ const Skills = () => {
         Skills
       </div>
 
-      <div className="flex flex-col flex-wrap items-center lg:flex-row lg:justify-center gap-10 p-16">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:flex-wrap gap-10 p-16">
           {skillBoxesContents.map((boxContents) => (
             <SkillBox skillsInfo={boxContents} />
           ))}
