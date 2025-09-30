@@ -11,6 +11,7 @@ const About = () => {
                 <div className="flex gap-4">
                     {aboutLinks.map((link) => (
                         <Link
+                            key={link.name}
                             name={link.name}
                             address={link.address}
                         />

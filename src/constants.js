@@ -37,8 +37,42 @@ const aboutLinks = [
   }
 ]
 
+const skillBoxesContents = [
+  {
+    header: "Frontend",
+    arrays: [
+      ["JavaScript ES6+", "TypeScript"],
+      ["React", "React Native"],
+      ["HTML5", "CSS", "Tailwind"]
+    ]
+  },
+  {
+    header: "Backend",
+    arrays: [
+      ["Node.js", "Express"],
+      ["Java", "Spring Boot"]
+    ]
+  },
+  {
+    header: "Databases",
+    arrays: [
+      ["MongoDB"],
+      ["PostgreSQL"]
+    ]
+  },
+  {
+    header: "Dev Tools",
+    arrays: [
+      ["Git", "GitHub"],
+      ["Docker"],
+      ["Playwright"]
+    ]
+  }
+]
+
 export {
   lorem,
   projects,
-  aboutLinks
+  aboutLinks,
+  skillBoxesContents
 }

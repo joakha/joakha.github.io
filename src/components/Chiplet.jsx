@@ -1,6 +1,6 @@
 const Chiplet = ({ itemName }) => {
     return (
-        <button className='bg-chocolate-light p-4 rounded-4xl mx-2 w-[144px] h-[56p] text-white'>
+        <button className='bg-chocolate-light mr-2 rounded-4xl w-[130px] h-[40px] text-white'>
             {itemName}
         </button>
     )
