@@ -1,5 +1,5 @@
 import { lorem } from "../constants"
-import profilePicture from "../assets/profilePicture.jpeg"
+import profilePic from "../assets/profilePic.jpeg"
 import { aboutLinks } from "../constants"
 import Link from "./Link"
 
@@ -20,11 +20,11 @@ const About = () => {
             </div>
 
             <div className="flex flex-col items-center lg:flex-row lg:justify-center gap-10">
-                <div className="h-[300px] w-[325px] md:w-[375px] lg:w-[439px]">
-                    <img src={profilePicture} className="rounded-md w-full h-full object-cover object-center" />
+                <div className="h-[350px] w-[325px] md:w-[375px] lg:w-[439px]">
+                    <img src={profilePic} className="rounded-md w-full h-full object-cover object-center" />
                 </div>
 
-                <div className="h-[300px] w-[325px] md:w-[375px] lg:w-[500px] bg-chocolate-light text-white text-justify p-6 overflow-auto rounded">
+                <div className="h-[350px] w-[325px] md:w-[375px] lg:w-[500px] bg-chocolate-light text-white text-justify p-6 overflow-auto rounded">
                     {lorem}
                 </div>
             </div>

@@ -16,6 +16,7 @@ const Projects = () => {
           description={project.description}
           pictures={project.pictures}
           repository={project.repository}
+          liveLink={project?.liveLink || ""}
         />
       ))}
     </section>

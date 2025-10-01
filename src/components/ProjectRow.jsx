@@ -2,7 +2,7 @@ import { useState } from "react"
 import Chiplet from "./Chiplet";
 import Link from "./Link";
 
-const ProjectRow = ({ projectName, stack, description, pictures, repository }) => {
+const ProjectRow = ({ projectName, stack, description, pictures, repository, liveLink }) => {
 
     const [shownPictureIndex, setShownPictureIndex] = useState(0);
 
@@ -42,12 +42,19 @@ const ProjectRow = ({ projectName, stack, description, pictures, repository }) =
             <div className="flex flex-col items-center lg:flex-row lg:justify-center gap-10 mb-16">
                 <div className="relative h-[300px] w-[325px] md:w-[375px] lg:w-[439px]">
                     <img src={pictures[shownPictureIndex]} className="rounded-md w-full h-full" />
-                    <button onClick={showPrevPicture} className=' bg-chocolate-dark rounded-xl text-xl px-6 py-4 text-white hover:text-chocolate-white absolute bottom-5 left-5 cursor-pointer'>&lArr;</button>
-                    <button onClick={showNextPicture} className=' bg-chocolate-dark rounded-xl text-xl px-6 py-4 text-white hover:text-chocolate-white absolute bottom-5 right-5 cursor-pointer'>&rArr;</button>
+                    <button onClick={showPrevPicture} className=' bg-chocolate-milk rounded-xl text-2xl px-6 py-4 text-white hover:text-chocolate-white absolute bottom-5 left-5 cursor-pointer'>&lArr;</button>
+                    <button onClick={showNextPicture} className=' bg-chocolate-milk rounded-xl text-2xl px-6 py-4 text-white hover:text-chocolate-white absolute bottom-5 right-5 cursor-pointer'>&rArr;</button>
                 </div>
 
-                <div className="h-[325px] w-[325px] md:w-[375px] lg:h-[300px] lg:w-[500px] bg-chocolate-light text-white p-6 rounded">
+                <div className="flex flex-col justify-between h-[325px] w-[325px] md:w-[375px] lg:h-[300px] lg:w-[500px] bg-chocolate-light text-white p-6 rounded">
                     <p>{description}</p>
+                    {liveLink &&
+                        <Link
+                            name={"Application is running live here!"}
+                            address={liveLink}
+                            color={"white"}
+                            hoverColor={"amber-200"}
+                        />}
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
-const Link = ({ name, address }) => {
+const Link = ({ name, address, color, hoverColor }) => {
     return (
         <a href={address}
-            className="text-xl text-chocolate-milk hover:text-chocolate-dark underline underline-offset-6 font-bold"
+            className={`text-xl text-${color || "chocolate-milk"} hover:text-${hoverColor || "chocolate-light"} underline underline-offset-6 font-bold`}
             target="_blank"
         >
             {name}
