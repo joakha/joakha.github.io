@@ -50,7 +50,7 @@ const ProjectRow = ({ projectName, stack, description, pictures, repository, liv
                     <p>{description}</p>
                     {liveLink &&
                         <Link
-                            name={"Application is running live here!"}
+                            name={"Application live on Render Hosting Service"}
                             address={liveLink}
                             color={"white"}
                             hoverColor={"amber-200"}

@@ -17,7 +17,7 @@ const projects = [
     Finding reviews created by other users is easy with many filtering and sorting options. Users can also comment on reviews made by other users
     to give feedback or just to say hello.`,
     pictures: [chocolate1, chocolate2, chocolate3],
-    repository: "https://github.com/joakha/benefit-app",
+    repository: "https://github.com/joakha/chocolate-review",
     liveLink: "https://chocolate-review-joakha.onrender.com"
   },
     {
