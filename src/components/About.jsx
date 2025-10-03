@@ -19,12 +19,12 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center lg:flex-row lg:justify-center gap-10">
-                <div className="h-[350px] w-[325px] md:w-[375px] lg:w-[439px]">
+            <div className="flex flex-col items-center lg:flex-row lg:justify-center gap-10 px-4">
+                <div className="h-[400px] w-[325px] md:w-[375px] lg:h-[450px] lg:w-[439px]">
                     <img src={profilePic} className="rounded-md w-full h-full object-cover object-center" />
                 </div>
 
-                <div className="h-[350px] w-[325px] md:w-[375px] lg:w-[500px] bg-chocolate-light text-white text-justify p-6 overflow-auto rounded">
+                <div className="h-[675px] w-[325px] md:h-[575px] md:w-[375px] lg:h-[450px] lg:w-[750px] bg-chocolate-light whitespace-pre-line text-balance text-white p-6 rounded">
                     {lorem}
                 </div>
             </div>

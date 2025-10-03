@@ -7,8 +7,13 @@ import chocolate1 from "./assets/chocolate-1.jpeg"
 import chocolate2 from "./assets/chocolate-2.jpeg"
 import chocolate3 from "./assets/chocolate-3.jpeg"
 
-const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in eleifend odio. Integer facilisis, lectus id faucibus elementum, ante dui efficitur nisi, sit amet mollis turpis leo non odio. Pellentesque mattis accumsan mauris, eget laoreet ante malesuada id. Nullam eleifend leo orci, mattis posuere sem pellentesque sit amet. Sed felis massa, venenatis vitae ligula in, pretium aliquet dui. Quisque egestas diam enim, ac finibus ipsum suscipit sit amet. Mauris eu mauris tristique, maximus erat vel, ornare risus. Sed vitae aliquet libero. Nam sit amet eleifend dolor, et maximus elit. Sed tempor augue sed feugiat eleifend. Vivamus porttitor eu nibh ac"
-
+const lorem = "Hello,\n\n" +
+"I'm a third-year student at Haaga-Helia University of Applied Sciences pursuing a degree in Business Information Technology and majoring in software development.\n\n" +
+"In my studies I have focused on full-stack development and my goal is to become a web developer. When it comes to frontend I've built projects with TypeScript, React and React Native. " +
+"On the backend, I've been learning frameworks like Express and Spring Boot.\n\n" +
+"New technologies have always been interesting to me and I'm always looking to learn something new and expand my skills. " +
+"To gain valuable practical experience, I'm actively looking for internship opportunities in web development.\n\n" +
+"Thank you for visiting my portfolio."
 const projects = [
       {
     name: "Chocolate-Review",
