@@ -7,13 +7,14 @@ import chocolate1 from "./assets/chocolate-1.jpeg"
 import chocolate2 from "./assets/chocolate-2.jpeg"
 import chocolate3 from "./assets/chocolate-3.jpeg"
 
-const lorem = "Hello,\n\n" +
+const introductionText = "Hello,\n\n" +
 "I'm a third-year student at Haaga-Helia University of Applied Sciences pursuing a degree in Business Information Technology and majoring in software development.\n\n" +
 "In my studies I have focused on full-stack development and my goal is to become a web developer. When it comes to frontend I've built projects with TypeScript, React and React Native. " +
 "On the backend, I've been learning frameworks like Express and Spring Boot.\n\n" +
 "New technologies have always been interesting to me and I'm always looking to learn something new and expand my skills. " +
 "To gain valuable practical experience, I'm actively looking for internship opportunities in web development.\n\n" +
 "Thank you for visiting my portfolio."
+
 const projects = [
       {
     name: "Chocolate-Review",
@@ -51,7 +52,7 @@ const aboutLinks = [
   },
   {
     name: "My LinkedIn",
-    address: "https://github.com/joakha"
+    address: "https://linkedin.com/in/johannes-haapanen-56598a249"
   }
 ]
 
@@ -89,7 +90,7 @@ const skillBoxesContents = [
 ]
 
 export {
-  lorem,
+  introductionText,
   projects,
   aboutLinks,
   skillBoxesContents

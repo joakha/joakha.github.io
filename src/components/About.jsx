@@ -1,4 +1,4 @@
-import { lorem } from "../constants"
+import { introductionText } from "../constants"
 import profilePic from "../assets/profilePic.jpeg"
 import { aboutLinks } from "../constants"
 import Link from "./Link"
@@ -25,7 +25,7 @@ const About = () => {
                 </div>
 
                 <div className="h-[675px] w-[325px] md:h-[575px] md:w-[375px] lg:h-[450px] lg:w-[750px] bg-chocolate-light whitespace-pre-line text-balance text-white p-6 rounded">
-                    {lorem}
+                    {introductionText}
                 </div>
             </div>
         </section>
