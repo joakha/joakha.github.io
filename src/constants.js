@@ -7,7 +7,7 @@ import chocolate1 from "./assets/chocolate-1.jpeg"
 import chocolate2 from "./assets/chocolate-2.jpeg"
 import chocolate3 from "./assets/chocolate-3.jpeg"
 
-const introductionText = "Hello,\n\n" +
+const introductionText = "Hello, my name is Johannes Haapanen.\n\n" +
 "I'm a third-year student at Haaga-Helia University of Applied Sciences pursuing a degree in Business Information Technology and majoring in software development.\n\n" +
 "In my studies I have focused on full-stack development and my goal is to become a web developer. When it comes to frontend I've built projects with TypeScript, React and React Native. " +
 "On the backend, I've been learning frameworks like Express and Spring Boot.\n\n" +
@@ -24,7 +24,7 @@ const projects = [
     to give feedback or just to say hello.`,
     pictures: [chocolate1, chocolate2, chocolate3],
     repository: "https://github.com/joakha/chocolate-review",
-    liveLink: "https://chocolate-review-joakha.onrender.com"
+    liveLink: "https://chocolate-review-joakha.onrender.com/find-reviews"
   },
     {
     name: "Benefit-App",
