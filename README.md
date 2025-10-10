@@ -2,7 +2,7 @@
 
 ## Overview
 
-This a small responsive portfolio site I made for job-seeking purposes.
+This is a small responsive portfolio site I made for job-seeking purposes.
 
 Site Address: https://joakha.github.io
 
