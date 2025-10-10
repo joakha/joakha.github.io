@@ -7,7 +7,7 @@ import chocolate1 from "./assets/chocolate-1.jpeg"
 import chocolate2 from "./assets/chocolate-2.jpeg"
 import chocolate3 from "./assets/chocolate-3.jpeg"
 
-const introductionText = "Hello, my name is Johannes Haapanen.\n\n" +
+const introductionText = "Hello,\n\n" +
 "I'm a third-year student at Haaga-Helia University of Applied Sciences pursuing a degree in Business Information Technology and majoring in software development.\n\n" +
 "In my studies I have focused on full-stack development and my goal is to become a web developer. When it comes to frontend I've built projects with TypeScript, React and React Native. " +
 "On the backend, I've been learning frameworks like Express and Spring Boot.\n\n" +
@@ -69,14 +69,8 @@ const skillBoxesContents = [
     header: "Backend",
     arrays: [
       ["Node.js", "Express"],
-      ["Java", "Spring Boot"]
-    ]
-  },
-  {
-    header: "Databases",
-    arrays: [
-      ["MongoDB"],
-      ["PostgreSQL"]
+      ["Java", "Spring Boot"],
+      ["MongoDB", "PostgreSQL"]
     ]
   },
   {
