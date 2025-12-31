@@ -26,8 +26,8 @@ const projects = [
     name: "Chocolate-Review",
     stack: ["Typescript", "React", "Node.js", "Express", "MongoDB", "Playwright"],
     description: `Chocolate-Review is a full-stack web application where users can register and write reviews for their favorite chocolates.
-    Finding reviews created by other users is easy with many filtering and sorting options. Users can also comment on reviews made by other users
-    to give feedback or just to say hello.`,
+      Finding reviews created by other users is easy with many filtering and sorting options. Users can also comment on reviews made by other users
+      to give feedback or just to say hello.`,
     pictures: [chocolate1, chocolate2, chocolate3],
     repository: "https://github.com/joakha/chocolate-review",
     liveLink: "https://chocolate-review-joakha.onrender.com/find-reviews"
@@ -52,8 +52,8 @@ const projects = [
   {
     name: "Weather App",
     stack: ["JavaScript", "React", "Java", "Spring Boot", "MySQL"],
-    description: `Group project where me and other students made a Full Stack application for visualizing weather data coming from a measurement device owned by our teacher. Data from the device included measurements like wind speed, wind direction,
-    temperature and humidity. The application also used the Norwegian Meteorogical Institute API to display weather forecasts and METAR information. In this project I implemented the layout for the frontend and worked on data fetching.`,
+    description: `Group project where me and other students made a Full Stack application for visualizing weather data coming from a measurement device owned by our teacher. 
+      The application also used the Norwegian Meteorogical Institute API to display weather forecasts and METAR information. In this project I implemented the layout for the frontend and worked on data fetching.`,
     pictures: [weather1, weather2, weather3],
     repository: "https://github.com/joakha/Weatherapp-frontend"
   },
